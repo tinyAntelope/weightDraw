@@ -14,6 +14,8 @@
 		D28975111ABF0B97001CBDFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28975101ABF0B97001CBDFB /* Images.xcassets */; };
 		D28975141ABF0B97001CBDFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28975121ABF0B97001CBDFB /* LaunchScreen.xib */; };
 		D28975201ABF0B97001CBDFB /* WeightDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289751F1ABF0B97001CBDFB /* WeightDrawTests.swift */; };
+		D289752A1ABF0C89001CBDFB /* Plate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28975291ABF0C89001CBDFB /* Plate.swift */; };
+		D289752C1ABF0F67001CBDFB /* WeightBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289752B1ABF0F67001CBDFB /* WeightBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		D28975191ABF0B97001CBDFB /* WeightDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D289751E1ABF0B97001CBDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D289751F1ABF0B97001CBDFB /* WeightDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDrawTests.swift; sourceTree = "<group>"; };
+		D28975291ABF0C89001CBDFB /* Plate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plate.swift; sourceTree = "<group>"; };
+		D289752B1ABF0F67001CBDFB /* WeightBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				D28975061ABF0B97001CBDFB /* AppDelegate.swift */,
 				D289750B1ABF0B97001CBDFB /* ViewController.swift */,
+				D28975291ABF0C89001CBDFB /* Plate.swift */,
+				D289752B1ABF0F67001CBDFB /* WeightBox.swift */,
 				D289750D1ABF0B97001CBDFB /* Main.storyboard */,
 				D28975101ABF0B97001CBDFB /* Images.xcassets */,
 				D28975121ABF0B97001CBDFB /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D289752A1ABF0C89001CBDFB /* Plate.swift in Sources */,
 				D289750C1ABF0B97001CBDFB /* ViewController.swift in Sources */,
 				D28975071ABF0B97001CBDFB /* AppDelegate.swift in Sources */,
 				D289750A1ABF0B97001CBDFB /* WeightDraw.xcdatamodeld in Sources */,
+				D289752C1ABF0F67001CBDFB /* WeightBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

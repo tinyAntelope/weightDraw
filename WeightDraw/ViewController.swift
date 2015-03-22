@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var barbellView: WeightBox!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       // barbellView.addPlate()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func add(sender: AnyObject) {
+        barbellView.addPlate()
+    }
+    @IBAction func test(sender: AnyObject) {
+        barbellView.printInfo()
+    }
 
 }
 
