@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28975071ABF0B97001CBDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28975061ABF0B97001CBDFB /* AppDelegate.swift */; };
+		D289750A1ABF0B97001CBDFB /* WeightDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D28975081ABF0B97001CBDFB /* WeightDraw.xcdatamodeld */; };
+		D289750C1ABF0B97001CBDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289750B1ABF0B97001CBDFB /* ViewController.swift */; };
+		D289750F1ABF0B97001CBDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D289750D1ABF0B97001CBDFB /* Main.storyboard */; };
+		D28975111ABF0B97001CBDFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28975101ABF0B97001CBDFB /* Images.xcassets */; };
+		D28975141ABF0B97001CBDFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D28975121ABF0B97001CBDFB /* LaunchScreen.xib */; };
+		D28975201ABF0B97001CBDFB /* WeightDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D289751F1ABF0B97001CBDFB /* WeightDrawTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D289751A1ABF0B97001CBDFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28974F91ABF0B97001CBDFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28975001ABF0B97001CBDFB;
+			remoteInfo = WeightDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28975011ABF0B97001CBDFB /* WeightDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28975051ABF0B97001CBDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28975061ABF0B97001CBDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D28975091ABF0B97001CBDFB /* WeightDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightDraw.xcdatamodel; sourceTree = "<group>"; };
+		D289750B1ABF0B97001CBDFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D289750E1ABF0B97001CBDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28975101ABF0B97001CBDFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D28975131ABF0B97001CBDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D28975191ABF0B97001CBDFB /* WeightDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D289751E1ABF0B97001CBDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D289751F1ABF0B97001CBDFB /* WeightDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDrawTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28974FE1ABF0B97001CBDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28975161ABF0B97001CBDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28974F81ABF0B97001CBDFB = {
+			isa = PBXGroup;
+			children = (
+				D28975031ABF0B97001CBDFB /* WeightDraw */,
+				D289751C1ABF0B97001CBDFB /* WeightDrawTests */,
+				D28975021ABF0B97001CBDFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28975021ABF0B97001CBDFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28975011ABF0B97001CBDFB /* WeightDraw.app */,
+				D28975191ABF0B97001CBDFB /* WeightDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28975031ABF0B97001CBDFB /* WeightDraw */ = {
+			isa = PBXGroup;
+			children = (
+				D28975061ABF0B97001CBDFB /* AppDelegate.swift */,
+				D289750B1ABF0B97001CBDFB /* ViewController.swift */,
+				D289750D1ABF0B97001CBDFB /* Main.storyboard */,
+				D28975101ABF0B97001CBDFB /* Images.xcassets */,
+				D28975121ABF0B97001CBDFB /* LaunchScreen.xib */,
+				D28975081ABF0B97001CBDFB /* WeightDraw.xcdatamodeld */,
+				D28975041ABF0B97001CBDFB /* Supporting Files */,
+			);
+			path = WeightDraw;
+			sourceTree = "<group>";
+		};
+		D28975041ABF0B97001CBDFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28975051ABF0B97001CBDFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D289751C1ABF0B97001CBDFB /* WeightDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				D289751F1ABF0B97001CBDFB /* WeightDrawTests.swift */,
+				D289751D1ABF0B97001CBDFB /* Supporting Files */,
+			);
+			path = WeightDrawTests;
+			sourceTree = "<group>";
+		};
+		D289751D1ABF0B97001CBDFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D289751E1ABF0B97001CBDFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28975001ABF0B97001CBDFB /* WeightDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28975231ABF0B97001CBDFB /* Build configuration list for PBXNativeTarget "WeightDraw" */;
+			buildPhases = (
+				D28974FD1ABF0B97001CBDFB /* Sources */,
+				D28974FE1ABF0B97001CBDFB /* Frameworks */,
+				D28974FF1ABF0B97001CBDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightDraw;
+			productName = WeightDraw;
+			productReference = D28975011ABF0B97001CBDFB /* WeightDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28975181ABF0B97001CBDFB /* WeightDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28975261ABF0B97001CBDFB /* Build configuration list for PBXNativeTarget "WeightDrawTests" */;
+			buildPhases = (
+				D28975151ABF0B97001CBDFB /* Sources */,
+				D28975161ABF0B97001CBDFB /* Frameworks */,
+				D28975171ABF0B97001CBDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D289751B1ABF0B97001CBDFB /* PBXTargetDependency */,
+			);
+			name = WeightDrawTests;
+			productName = WeightDrawTests;
+			productReference = D28975191ABF0B97001CBDFB /* WeightDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28974F91ABF0B97001CBDFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tiny Antelope Publishing, LLC";
+				TargetAttributes = {
+					D28975001ABF0B97001CBDFB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D28975181ABF0B97001CBDFB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D28975001ABF0B97001CBDFB;
+					};
+				};
+			};
+			buildConfigurationList = D28974FC1ABF0B97001CBDFB /* Build configuration list for PBXProject "WeightDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28974F81ABF0B97001CBDFB;
+			productRefGroup = D28975021ABF0B97001CBDFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28975001ABF0B97001CBDFB /* WeightDraw */,
+				D28975181ABF0B97001CBDFB /* WeightDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28974FF1ABF0B97001CBDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289750F1ABF0B97001CBDFB /* Main.storyboard in Resources */,
+				D28975141ABF0B97001CBDFB /* LaunchScreen.xib in Resources */,
+				D28975111ABF0B97001CBDFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28975171ABF0B97001CBDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28974FD1ABF0B97001CBDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D289750C1ABF0B97001CBDFB /* ViewController.swift in Sources */,
+				D28975071ABF0B97001CBDFB /* AppDelegate.swift in Sources */,
+				D289750A1ABF0B97001CBDFB /* WeightDraw.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28975151ABF0B97001CBDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28975201ABF0B97001CBDFB /* WeightDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D289751B1ABF0B97001CBDFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28975001ABF0B97001CBDFB /* WeightDraw */;
+			targetProxy = D289751A1ABF0B97001CBDFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D289750D1ABF0B97001CBDFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D289750E1ABF0B97001CBDFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28975121ABF0B97001CBDFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28975131ABF0B97001CBDFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28975211ABF0B97001CBDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D28975221ABF0B97001CBDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28975241ABF0B97001CBDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D28975251ABF0B97001CBDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D28975271ABF0B97001CBDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeightDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightDraw.app/WeightDraw";
+			};
+			name = Debug;
+		};
+		D28975281ABF0B97001CBDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeightDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeightDraw.app/WeightDraw";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28974FC1ABF0B97001CBDFB /* Build configuration list for PBXProject "WeightDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28975211ABF0B97001CBDFB /* Debug */,
+				D28975221ABF0B97001CBDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28975231ABF0B97001CBDFB /* Build configuration list for PBXNativeTarget "WeightDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28975241ABF0B97001CBDFB /* Debug */,
+				D28975251ABF0B97001CBDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D28975261ABF0B97001CBDFB /* Build configuration list for PBXNativeTarget "WeightDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28975271ABF0B97001CBDFB /* Debug */,
+				D28975281ABF0B97001CBDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D28975081ABF0B97001CBDFB /* WeightDraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D28975091ABF0B97001CBDFB /* WeightDraw.xcdatamodel */,
+			);
+			currentVersion = D28975091ABF0B97001CBDFB /* WeightDraw.xcdatamodel */;
+			path = WeightDraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D28974F91ABF0B97001CBDFB /* Project object */;
+}
